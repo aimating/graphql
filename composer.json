@@ -1,0 +1,28 @@
+{
+    "name": "aimating/graphql",
+    "description": "Graphql",
+    "version": "1.0.0",
+    "type": "library",
+    "require": {
+        "thecodingmachine/graphqlite": "^8.0",
+        "ecodev/graphql-upload": "^7.0",
+        "hyperf/paginator": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aimating\\Graphql\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "worf tan",
+            "email": "iwei1982.tan@gmail.com"
+        }
+    ],
+    "extra": {
+        "hyperf": {
+            "config": "Aimating\\Graphql\\ConfigProvider"
+        }
+    }
+}

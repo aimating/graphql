@@ -1,0 +1,55 @@
+/vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+
+bootstrap/compiled.php
+app/storage/
+
+
+public/storage
+public/hot
+
+public_html/storage
+public_html/hot
+
+storage/*.key
+storage/oauth2/*
+storage/swagger
+.env
+Homestead.yaml
+Homestead.json
+/.vagrant
+.phpunit.result.cache
+
+/public/build
+/storage/pail
+.env.backup
+.env.production
+.phpactor.json
+auth.json
+# OSX
+.DS_Store
+
+# IDE & Temp
+.cache
+.idea
+.nyc_output
+.vscode
+coverage
+.aws.tmp.creds.json
+.wskdebug.props.tmp
+
+# package directories
+node_modules
+jspm_packages
+
+# build
+build
+dist
+.manifest-dist.yml
+
+# Config
+config.json
+.env*
